@@ -7,6 +7,7 @@
 #include "IoClass.h"
 
 int main() {
+
     IoClass c(0);
     std::ifstream in;
     in.open("test.txt");

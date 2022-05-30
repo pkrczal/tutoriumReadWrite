@@ -19,7 +19,7 @@ public:
 
     IoClass() = default;
 
-    virtual ~IoClass() = default;
+    ~IoClass() = default;
 
     void addNewPerson(std::string firstname, std::string lastname, std::string email);
 
