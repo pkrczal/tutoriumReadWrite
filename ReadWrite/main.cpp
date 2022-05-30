@@ -7,13 +7,9 @@
 #include "IoClass.h"
 
 int main() {
-    IoClass c(2);
-    c.addNewPerson("Max", "Mustermann", "m@mail.de");
-    //c.addNewPerson("Martin", "Mustermann", "ma@mail.de");
-    /*std::ofstream out;
-    out.open("test.txt");
-    c.write(out);*/
+    IoClass c(0);
     std::ifstream in;
     in.open("test.txt");
     c.read(in);
+    c.showPersons();
 }

@@ -23,6 +23,8 @@ public:
 
     void addNewPerson(std::string firstname, std::string lastname, std::string email);
 
+    void showPersons();
+
     std::istream & read(std::istream & in) override;
 
     std::ostream & write(std::ostream & out) override;

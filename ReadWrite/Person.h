@@ -31,6 +31,8 @@ public:
 
     std::string getEmail() { return this->email; }
 
+    void showPerson();
+
 private:
     std::string firstname;
     std::string lastname;
